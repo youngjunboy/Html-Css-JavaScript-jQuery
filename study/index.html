@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세상에서 제일 쉬운 자바스크립트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alert-box" id="영준">알림창이에요</div>
+    <button onclick="고양이()">닫기</button>
+    <button onclick="강아지()">열기</button>
+
+    <script>
+        
+        function 강아지(){document.getElementById('영준').style.display='block';}
+        function 고양이(){document.getElementById('영준').style.display='none';}
+
+    </script>
+</body>
+</html>

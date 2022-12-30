@@ -1,0 +1,9 @@
+.alert-box {
+    background-color: aquamarine;
+    padding: 40px;
+    color: coral;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+    display: block;
+}
