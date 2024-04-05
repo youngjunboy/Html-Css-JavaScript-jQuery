@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.contents{
+    width: 800px;
+    height: 200px;
+    margin-top: 400px
+}
+
+h4{
+    color: white;
+    background-color: black;
+}
+
+.notice{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+ul>li:nth-child(2n){
+    background-color: darkgrey;
+}
+
+.gallery{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.banner{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
