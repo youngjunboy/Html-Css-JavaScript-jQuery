@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+*{
+    list-style: none;
+    padding: 0 ;
+    margin: 0 auto;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.tabmenu{
+    float: left;
+    width: 395px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    height: 30px;
+}
+
+.tabmenu>li>a{
+    display: block;
+    text-align: center;
+    border: 1px solid lightsalmon;
+    border-bottom: none;
+}
+
+.tabmenu>li>a:hover{
+    background-color: cornflowerblue
+}
+
+.tabmenu>li:first-child a{
+    border-right: none;
+}
+
+.tabmenu>li.active>a{
+    background-color: white;
+}
